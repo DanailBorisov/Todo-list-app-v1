@@ -9,3 +9,6 @@ if (jQuery) {
 } else {
     console.log("not connected jQuery");
 }
+$('img').css("width", "500px");
+$("input").attr("type", "color");
+$("img:nth-of-type(4)").css("width", "100px");
