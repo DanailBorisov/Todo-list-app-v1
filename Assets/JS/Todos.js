@@ -21,3 +21,8 @@ $("input[type='text']").keypress(function(event) {
 $(".fa-plus-circle").click(function() {
     $("input").fadeToggle();
 });
+$(".fa-trash-o").click(function() {
+    $("li.completed").fadeOut(1000, function() {
+        $(this).remove();
+    });
+});

@@ -88,3 +88,8 @@
     .fa-plus-circle {
         float: right;
     }
+    
+    .fa-trash-o {
+        float: right;
+        margin-right: 10px;
+    }
